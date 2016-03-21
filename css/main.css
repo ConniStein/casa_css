@@ -1,0 +1,76 @@
+.cuadrado{
+	height: 300px;
+	width: 300px;
+	background-color: #c49df6;
+}
+
+.elemento_relativo{
+	position:relative;
+	left: 100px;
+	top:350px;
+}
+
+.triangulo{
+	height: 0px;
+	width: 0px;
+	border-bottom: 200px solid #f49ac2;
+	border-right: 200px transparent solid;
+	border-left: 200px transparent solid;
+	position: absolute;
+	bottom: 100%;
+	right: -50px;
+}
+
+.chimenea{
+	height: 200px;
+	width: 100px;
+	background-color: #f49ac2;
+	position: relative;
+	left: 50px;
+	
+}
+
+.humo{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	bottom: 50%;
+}
+
+.humito1{
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	background-color: #9aeea8;
+	right: -45px;
+	position: relative;
+	bottom:10px;
+}
+
+.humito2{
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	background-color: #9aeea8;
+	right:-30px;
+	position: relative;
+}
+
+.puerta{
+	height: 150px;
+	width: 100px;
+	background-color: #98dfee;
+	position: relative;
+	left:110px;
+	top:50%;
+}
+
+.manilla{
+	height: 25px;
+	width: 25px;
+	border-radius: 100%;
+	background-color: #f6f69d;
+	position: relative;
+	top: 80px;
+	left: 60px;
+}
